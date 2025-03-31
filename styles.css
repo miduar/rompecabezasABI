@@ -1,0 +1,61 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    width: 90%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2 {
+    font-size: 22px;
+}
+
+#rompecabezas {
+    display: grid;
+    gap: 2px;
+    margin: 15px auto;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.pieza {
+    background-size: cover;
+    cursor: grab;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.oculto {
+    display: none;
+}
+
+button {
+    background: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #ff3d7f;
+}
